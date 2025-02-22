@@ -10,4 +10,6 @@ A tutorial for the bot can be found here -
 `pip install yt-dlp`
 `pip install PyNaCl`
 
-You'll also need **FFmpeg**
+You'll also need **FFmpeg** - Store the executable file (.exe) in this folder structure: *bin/ffmpeg/ffmpeg.exe*
+
+FFmpeg can be downloaded here - https://www.ffmpeg.org/download.html
