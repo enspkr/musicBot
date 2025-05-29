@@ -1,15 +1,20 @@
-# Discord-Music-Bot-Remastered
-This repository contains a basic Discord Music bot that can pause, resume, stop and skip songs. The bot also has it's very own queueing system!
-The bot is made in Python and uses the discord.py library.
+# Discord Music Bot
 
-A tutorial for the bot can be found here - https://youtu.be/U5CUkxUh2CQ
+🎵 A simple and powerful Discord music bot built with **discord.py** and **yt-dlp**.
+Supports queueing, playlist support, looping (single & queue), and more!
 
-## Dependencies
-`pip install discord.py`
-`pip install python-dotenv`
-`pip install yt-dlp`
-`pip install PyNaCl`
+## 🚀 Features
+✅ Play music from YouTube links or search queries
+✅ Play entire YouTube playlists
+✅ Toggle loop for single songs
+✅ Toggle loop for the entire queue
+✅ Pause, resume, skip, and stop playback
+✅ Works directly in your Discord server with slash commands
 
-You'll also need **FFmpeg** - Store the executable file (.exe) in this folder structure: *bin/ffmpeg/ffmpeg.exe*
+## 📦 Requirements
+- Python 3.8+
+- ffmpeg (installed and added to your PATH)
 
-FFmpeg can be downloaded here - https://www.ffmpeg.org/download.html
+Install dependencies:
+```bash
+pip install -r requirements.txt
