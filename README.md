@@ -13,7 +13,7 @@ Supports queueing, playlist support, looping (single & queue), and more!
 
 ## 📦 Requirements
 - Python 3.8+
-- ffmpeg (installed and added to your PATH)
+- ffmpeg (installed and added to your PATH) https://www.ffmpeg.org/download.html
 
 Install dependencies:
 ```bash
