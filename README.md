@@ -27,9 +27,10 @@ pip install -r requirements.txt
 python discord_bot_final.py
 ```
 
-Make sure to **configure your bot token** in the `.env` file:
+Make sure to **configure your bot token and the guild_id** in the `.py` file:
 ```
-TOKEN=YOUR_BOT_TOKEN_HERE
+TOKEN = "YOUR_BOT_TOKEN"
+GUILD_ID = YOUR_GUILD_ID
 ```
 
 ## ⚙️ Slash Commands Available
